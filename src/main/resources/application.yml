@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://petitionmainserver.database.windows.net:1433;database=petitionDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: balde12
+    password: Balde321.
+  jpa:
+    show-sql:
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9090
+
